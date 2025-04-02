@@ -1,6 +1,6 @@
 const clockDisplay = document.getElementById('clock');
 const dateDisplay = document.getElementById('date');
-const TIME_INTERVAL_UPDATE = 1000;
+const TIME_UPDATE_INTERVAL = 1000;
 
 function formatTime(hours, minutes, seconds) {
     minutes = (minutes < 10) ? "0" + minutes : minutes;
