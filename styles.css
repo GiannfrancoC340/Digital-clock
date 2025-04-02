@@ -10,3 +10,19 @@ p {
     font-family: 'Arial';
     text-align: center;
 }
+
+#clock {
+    font-size: 3em;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
